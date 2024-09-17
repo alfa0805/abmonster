@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    background:#F7F7FB;
+}
+/* --------------------header------------------------- */
+.header{
+    padding: 20px 0;
+    background: radial-gradient(100% 100% at 50% 0%, #504A93 0%, #413E65 100%);
+
+}
+.header-blok{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    padding: 4px 8px;
+    width: 80px;
+    height: 30px;
+    &:hover{
+        padding: 4px 8px;
+        border-radius: 4px;
+        background: linear-gradient(75deg,
+        #00ffff,#09a1ffd8);
+        opacity: 90%;
+    }
+}
+.header-form{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.header-select{
+    border:none;
+    color: red;
+    outline: none;
+    font-size: 16px;
+    font-weight: 560;
+    text-align: right;
+    background: none;
+}
+.header-href{
+    font-family: Albert Sans;
+    font-size: 16px;
+    font-weight: 560;
+    text-align: right;
+    color:white;
+    &:hover{
+        color:red;
+    }
+}
+
+.header-sublink{
+    font-family: Albert Sans;
+    font-size: 16px;
+    font-weight: 560;
+    padding:9px 30px ;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    color:black ;
+    &:hover{
+        background:#F04037;
+        color:white;
+    }
+}
+/* ------------------------------------------------------------- */
+.header-bottom{
+    padding: 180px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-span{
+    width: 543px;
+}
+.header-title{
+    font-family:Albert Sans;
+    font-size: 80px;
+    line-height: 84px;
+    text-align: left;
+    color: #FFFF;
+}
+.header-text{
+    padding-top: 31px;
+    padding-bottom: 45px;
+    font-family: Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: left;
+    color: #FFFF;
+}
+.header-btn{
+    font-family: Albert Sans;
+    font-size: 21px;
+    font-weight: 560;
+    padding:13px 26px ;
+    background:white;
+    border: none;
+    border-radius: 3px;
+    color:black;
+    &:hover{
+        background:#F04037;
+        color:white;
+    }
+}
+.header-name{
+    padding-top: 25px;
+    font-family: Albert Sans;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    color:#FFFF;
+}
+.header-image{
+    width:45%;
+    height: 690px;
+}
+/* ------------------------------nav------------------------------------------ */
+.nav {
+    background: white;
+}
+.nav-list{
+    padding: 90px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #EAE9F2;
+}
+.nav-item{
+    width: 25%;
+}
+.nav-title{
+    padding-top: 40px;
+    font-family:  Albert Sans;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: left;
+    color: #000;
+}
+.nav-text{
+    padding-top: 15px;
+    font-family:  Albert Sans;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color:#696871;
+}
+.nav-blok{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-image{
+    filter: grayscale(100%);
+    &:hover{
+        transition: all 0.1s;
+        filter: grayscale(0); 
+    }
+}
+/* -----------------------------------------------section------------------------- */
+.section{
+    padding: 130px 0px;
+}
+.section .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.section-block{
+    width: 50%;
+}
+.section-title{
+    font-family:  Albert Sans;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+    color: #19191B;
+}
+.section-text{
+    padding-top:26px ;
+    padding-bottom: 66px;
+    font-family:  Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: left;
+    color: #696871;  
+}
+.section-form{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.section-span{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+.section-icon{ 
+    color: #00ffff;
+}
+.section-name{
+    padding-left: 5px;
+    font-family:  Albert Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 24.61px;
+    text-align: left;
+    color: #19191B;
+}
+/* ------------------------------------------------content------------------------ */
+.content{
+    padding: 100px 0px;
+    background: white;
+}
+.content .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-img{
+    width:50%;
+}
+.content-block{
+    width: 40%;
+}
+.content-title{
+    padding-bottom: 25px;
+    font-family:  Albert Sans;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+    color: #19191B;
+}
+.content-text{
+    font-family:  Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: left;
+    color:#696871;
+}
+.content-aside{
+    padding-top: 50px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: start;
+}
+.content-span{
+    padding-left: 20px;
+}
+.content-subtitle{
+    font-family:  Albert Sans;
+    font-size: 21px;
+    line-height: 24.61px;
+    text-align: left;
+    color: #19191B;
+}
+.content-subtext{
+    width: 51%;
+    font-family:  Albert Sans;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color:#696871;
+}
+/* --------------------------------------------------main-------------------------------------- */
+.main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-title{
+    padding-bottom: 25px;
+    font-family:  Albert Sans;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #19191B;
+}
+.main-text{
+    padding: 18px  290px;
+    font-family:  Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align:center;
+    color:#696871;
+}
+/* ------------------------------------------------------ */
+.main-card{
+    padding: 10px;
+    width: 920px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+    position: relative;
+    &:hover{
+        transform: scale(101%);
+        transition: all 0.3s;
+        box-shadow:0px 5px 13px 4px #9853ec22; 
+    }
+}
+.main-lefticon{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 2px rgba(219, 216, 216, 0.774);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50% ,0%);
+}
+.main-righticon{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 2px rgba(153, 106, 219, 0.304);
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(50% ,0%);
+}
+.main-img{
+    width: 315px;
+    height: 370px;
+    border-radius: 8px;
+    &:hover{
+        transition: all 0.3s;
+        box-shadow:4px 5px 13px  #1513172e; 
+    }
+}
+.main-span{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-subtext{
+    padding: 29px 0px ;
+    width: 390px;
+    font-family: Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    color: #19191B;
+}
+.main-heding{
+    font-family: Albert Sans;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #19191B;
+}
+.main-numbur{
+    font-family: Albert Sans;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #696871;
+}
+/* -----------------------------sidebar----------------------------- */
+.sidebar-list{
+    padding: 140px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.sidebar-item{
+    width: 30%;
+}
+.sidebar-title{
+    font-family:Albert Sans ;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #5454D4;
+}
+.sidebar-text{
+    font-family:  Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align:center;
+    color:#696871;
+}
+/* --------------------pricing---------- */
+.pricing .container{
+    position: relative;
+}
+.pricing-blok{
+    padding-bottom: 390px;
+}
+.pricing-subtitle{
+    font-family:  Albert Sans;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #19191B;
+}
+.pricing-subtext{
+    padding: 18px  290px;
+    font-family:  Albert Sans;
+    font-size: 21px;
+    line-height: 39px;
+    text-align:center;
+    color:#696871;
+}
+.pricing-span{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pricing-number{
+    font-family: Albert Sans;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color:#696871;
+}
+.pricing-btn{
+    padding: 8px 16px;
+    background: #F04037;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight:550;
+    &:hover{
+        background: #2b2727;
+        color: white;
+    }
+}
+/* ------------------------------ */
+/* .aside{
+
+} */
+.pricing-bottom{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -42%;
+    left: 95px;
+}
+.pricing-left{
+    width: 48%;
+    background: white;
+    border-radius: 10px;
+}
+.pricing-right{
+    width: 48%;
+    background: white;
+    border-radius: 10px;
+}
+.pricing-text{
+    padding-top: 25px;
+    font-family: Albert Sans;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #5454D4;
+}
+.pricing-title{
+    padding: 20px 0px;
+    font-family: Albert Sans;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    color: #19191B;
+}
+.pricing-subspan{
+    font-family: Albert Sans;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 56px;
+    text-align: center;
+    color: #19191B;
+}
+.pricing-name{
+    font-family: Albert Sans;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#696871;
+}
+.pricing-form{
+    padding:50px 110px ;
+}
+
+.pricing-imput{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.pricing-lebel{
+    padding-left: 10px;
+    font-family: Albert Sans;
+    font-size: 21px;
+    text-align: left;
+    color: #19191B;
+}
+.pricing-subnumber{
+    padding: 15px 0;
+    font-family: Albert Sans;
+    font-size: 21px;
+    line-height: 24.61px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #5454D4;
+    color:#FFFF;
+}
+/* -----------------------------card------------------------------------- */
+.card{
+    background: #19191B;
+}
+.card-list{
+    padding-top: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card-item{
+    padding: 35px 0;
+    width: 47%;
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    &:hover{
+        background:#242323;
+        box-shadow: 5px 5px 15px 5px #242323;
+        border:none;
+        border-radius: 5px;
+        transition: all 0.7px;
+    }
+}
+.card-span{
+    padding:0 20px;
+}
+.card-title{
+    font-family: Albert Sans;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: left;
+    color: #FFFF;
+}
+.card-text{
+    padding-top: 25px;
+    font-family: Albert Sans;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #ffffffa9;
+}
+/* ------------------------------------------------------------------- */
+.card-block{
+    padding: 125px 0px;
+}
+.card-subtitle{
+    font-family: Albert Sens;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFF;
+}
+.card-subtext{
+    padding: 30px 350px;
+    font-family: Albert Sens;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.6565263867378235px;
+    text-align: center;
+    color:#696871;
+}
+/* .card-span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+.card-btn{
+    margin-left: 450px;
+    padding: 10px 16px;
+    font-family: Albert Sens;
+    font-size: 21px;
+    line-height: 24.61px;
+    letter-spacing: -0.6565263867378235px;
+    text-align: center;
+    color: #FFFF;
+    background: #F0544C;
+    border-radius: 5px;
+    border:none;
+    &:hover{
+        color:#19191B;
+        background: white;
+        transition: all 0.4s;
+    }
+}
+.card-number{
+    padding-top: 15px;
+    font-family: Albert Sens;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: -0.43768423795700073px;
+    text-align: center;
+    color: #ffffffa9;
+}
+/* ----------------------------------footer---------------------------------------- */
+.footer .container{
+    padding: 100px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+}
+.footer-subtitle{
+    font-family: Albert Sens;
+    font-size: 24px;
+    line-height: 28.13px;
+    letter-spacing: -0.7503158450126648px;
+    text-align: left;
+    color:#19191B;
+    &:hover{
+        color: blueviolet;
+    }
+}
+.footer-text{
+    width: 170px;
+    padding: 20px 0px;
+    font-family: Albert Sens;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: left;
+    color:#696871;
+    &:hover{
+        color: rgb(211, 30, 102);
+    }
+}
+/* ----------icon---------- */
+.footer-img{
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    background: #100f0f;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    &:hover{
+        background: #615858; 
+        filter: grayscale(0%);
+        transition: all 0.5s;
+    }
+}
+.footer-image{
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    background: #060606;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    &:hover{
+        background: #6f6868; 
+        filter: grayscale(0%);
+        transition: all 0.5s;
+    }
+}
+.footer-pic{
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    background: #090909;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    &:hover{
+        background: #615858; 
+        filter: grayscale(0%);
+        transition: all 0.5s;
+    }
+}
+/* -----------icon--------- */
+.footer-list{
+    display: flex;
+    align-items: start;
+    gap: 140px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-title{
+    padding-bottom: 20px;
+    font-family: Albert Sens;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: left;
+    color:#19191B;
+    &:hover{
+        color: blue;
+    }
+}
+.footer-subtext{
+    font-family: Albert Sens;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: left;
+    color:#19191B;
+    &:hover{
+        color: red;
+    }
+}
+.footer-number{
+    font-family: Albert Sens;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: left;
+    color:#5454D4;
+    &:hover{
+        color: red;
+    }
+}
